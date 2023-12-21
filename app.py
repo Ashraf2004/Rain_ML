@@ -39,6 +39,3 @@ def predict():
         result = 'There is rain tomorrow'
     
     return render_template('index.html', prediction=result)
-
-if __name__ == '__main__':
-    app.run(debug=True, use_reloader=True)
